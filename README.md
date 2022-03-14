@@ -30,5 +30,11 @@ For example,
 python train.py --num_epochs 10 --depth 3 --use_cuda 
 ```
 
+Plots and neural rde weights are saved in [numerical_results](https://github.com/msabvid/DeepFiltering/tree/main/numerical_results).
 
+![Filtering](https://github.com/msabvid/DeepFiltering/blob/main/numerical_results/filtering.png)
+
+## Future steps
+- Numerically solving for E(\phi(X_t) | Y_t) for any continuous \phi for any t (coming soon)
+- Prediction
 
