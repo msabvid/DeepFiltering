@@ -41,5 +41,5 @@ Plots and neural rde weights are saved in [numerical_results](https://github.com
 
 ## Acknowledgements
 - Neural Rough Differential eqautions using [torchcde](https://github.com/patrick-kidger/torchcde)
-- Path signatures using [Signatory](https://github.com/patrick-kidger/torchcde)
+- Path signatures using [Signatory](https://signatory.readthedocs.io/en/latest/pages/usage/introduction.html)
 
