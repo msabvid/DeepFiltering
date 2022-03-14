@@ -37,7 +37,7 @@ Plots and neural rde weights are saved in [numerical_results](https://github.com
 ## Future steps
 - Numerically solving for E(\phi(X_t) | Y_t) for any continuous \phi for any t (coming soon)
 - Prediction
-- Evaluating for higher obs dimensions...
+- Solving and evaluating for higher obs dimensions...
 
 ## Acknowledgements
 - Neural Rough Differential eqautions using [torchcde](https://github.com/patrick-kidger/torchcde)
