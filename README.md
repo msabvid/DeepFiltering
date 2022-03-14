@@ -39,3 +39,7 @@ Plots and neural rde weights are saved in [numerical_results](https://github.com
 - Prediction
 - Evaluating for higher obs dimensions...
 
+## Acknowledgements
+- Neural Rough Differential eqautions using [torchcde](https://github.com/patrick-kidger/torchcde)
+- Path signatures using [Signatory](https://github.com/patrick-kidger/torchcde)
+
