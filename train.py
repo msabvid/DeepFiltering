@@ -97,7 +97,7 @@ def plot(device: str,
         ax.plot(to_numpy(t), to_numpy(xy[i,:,0]), label=r"$X_t(\omega)$") 
         ax.plot(to_numpy(t[::window_length]), to_numpy(pred_ce[i,:,0]), label="pred nrde")
         ax.plot(to_numpy(t), to_numpy(x_ce[i,:,0]), label=r"kalman filter - $E(X_t | F_t^Y)(\omega)$") 
-        ax.text(0.05, 0.95, textstr, transform=ax[0].transAxes, fontsize=14, verticalalignment='top', bbox=props)
+        ax.text(0.05, 0.95, textstr, transform=ax.transAxes, fontsize=14, verticalalignment='top', bbox=props)
         ax.set_title("Filtering")
         ax.legend(loc='lower left')
         
