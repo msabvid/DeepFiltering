@@ -1,7 +1,7 @@
 # Deep Filtering
 
 Filtering using Deep Learning and Neural RDEs.
-The loss function is built assuming that the conditional expectation E(X_t | F_t^Y) where (X_t is the state process and Y_t) is the observation process is the orthogonal projection of X_t on the space of rvs F_t^Y - measurable, and Doob-Dynkin lemma.   
+The loss function is built assuming that the conditional expectation E(X_t | F_t^Y) where (X_t is the state process and Y_t is the observation process) is the orthogonal projection of X_t on the space of rvs F_t^Y - measurable, and Doob-Dynkin lemma.   
 
 Running the code:
 ```
