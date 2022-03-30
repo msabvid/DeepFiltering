@@ -10,14 +10,11 @@ class FFN(nn.Module):
         super().__init__()
 
         layers = []
-        layers.append(nn.BatchNorm1d(sizes[0]))
         for j in range(1,len(sizes)):
             layers.append(nn.Linear(sizes[j-1], sizes[j]))
             if j<(len(sizes)-1):
-                layers.append(nn.BatchNorm1d(sizes[j]))
                 layers.append(activation())
             else:
-                #layers.append(nn.BatchNorm1d(sizes[j]))
                 layers.append(output_activation())
 
         self.net = nn.Sequential(*layers)
