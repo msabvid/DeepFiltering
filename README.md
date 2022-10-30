@@ -1,7 +1,7 @@
 # Deep Filtering
 
 Small repo solving a Filtering problem using [Neural Rough Differential equations](https://arxiv.org/abs/2009.08295).
-The loss function is built using that the conditional expectation E(X_t | F_t^Y) (where X_t is the state process and Y_t is the observation process) is the orthogonal projection of X_t on the space of rvs F_t^Y - measurable, and Doob-Dynkin lemma.   
+The conditional expectation E(X_t | F_t^Y) (where X_t is the state process and Y_t is the observation process) is the orthogonal projection of X_t on the space of rvs F_t^Y - measurable, and Doob-Dynkin lemma.   
 
 Running the code:
 ```
